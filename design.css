@@ -1,0 +1,43 @@
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background: url("C:\\Users\\91707\\Desktop\\web app\\background.jpg") center/cover no-repeat;
+} 
+.register-form{
+    width:350px; 
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    position:absolute; 
+    color:black;
+} 
+.register-form h1{ 
+    text-align: center; 
+    text-transform: uppercase; 
+    font-size: 45px;
+    margin: 40px 0; 
+} 
+.register-form p{ 
+    font-size: 20px;
+    margin: 15px 0; 
+} 
+.register-form input{  
+    width: 100%;
+    font-size: 16px;  
+    outline:none;
+    padding: 15px 10px; 
+    border-radius: 5px;
+    margin: 15px 0; 
+}  
+.register-form button{ 
+    width: 50%;
+    font-size: 18px;  
+    font-weight: bold; 
+    align-self: center;
+    padding: 10px 15px; 
+    margin: 20px 0; 
+    border-radius: 5px; 
+    border: 0;
+}
+
